@@ -58,7 +58,7 @@
                         </b-dropdown>
                     </div>
 
-                    <div class="l_button button_medium" style="float:right ;margin-right: -10px; margin-top: -1px;" @click="open_arthub">Prompt Ideas</div>
+
 
 
                     
@@ -108,7 +108,6 @@
         <p>Please close other applications for best speed.</p>
     </div>
 
-    <div @click="share_current_arthub"  v-if="generated_images.length > 0"  class="l_button bottom_float" style="right : 10px; bottom : 15px; background-color: inherit; cursor: pointer;">Share on ArtHub.ai</div>
 
 
 </div>
