@@ -12,7 +12,6 @@
                         </template>
                         
                         <b-dropdown-item-button @click="$emit('menu_item_click_help',{})">Help</b-dropdown-item-button>
-                        <b-dropdown-item-button @click="$emit('menu_item_click_discord',{})">Start Discord Chat</b-dropdown-item-button>
                         <b-dropdown-item-button @click="selectTab('logs')">Show Logs</b-dropdown-item-button>
 
                         <b-dropdown-item-button @click="$emit('menu_item_click_model_license',{})">Model License</b-dropdown-item-button>
