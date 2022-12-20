@@ -34,14 +34,14 @@
                 <div @click="delete_hist(history_box.key)" style="float:right; margin-top: 10px;"  class="l_button">Delete</div>
                 <!-- <div @click="share_on_arthub(history_box)" style="float:right; margin-top: 10px;"  class="l_button">Share</div> -->
 
-                <b-dropdown left variant="link" size="sm" toggle-class="text-decoration-none" no-caret style="float:right; margin-top: 5px;">
+                <!-- <b-dropdown left variant="link" size="sm" toggle-class="text-decoration-none" no-caret style="float:right; margin-top: 5px;">
                     <template #button-content>
                         <div   class=" l_button "  >
                             Share 
                         </div>
                     </template>
                     <b-dropdown-item-button   @click="share_on_arthub(history_box)"  >Share on ArtHub.ai</b-dropdown-item-button>
-                </b-dropdown>
+                </b-dropdown> -->
 
                 
                 <p class="history_box_info text_bg" style="user-select: text;">
