@@ -13,7 +13,7 @@
                 <SplashScreen v-if="app_state.show_splash_screen"></SplashScreen>
             </transition>
         </div>
-        <ApplicationFrame ref="app_frame" v-else title="DiffusionBee - Stable Diffusion App"
+        <ApplicationFrame ref="app_frame" v-else title="SimpleDiffusion"
 
             @menu_item_click_about="show_about"
             @menu_item_click_help="open_url('https://diffusionbee.com/')"
